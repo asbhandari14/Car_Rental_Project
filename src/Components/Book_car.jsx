@@ -38,7 +38,7 @@ const Book_car=()=>{
                         <input type="date" placeholder="Select drop off location" className="px-3 py-2.5 border border-gray-600 rounded-sm"/>
                     </div>
                     <div className="flex flex-col py-7">
-                        <button className="px-5 py-4 bg-[#FF4D30] text-white text-lg font-bold rounded-sm">Search</button>
+                        <button className="px-5 py-3 bg-[#FF4D30] text-white text-lg font-semibold rounded-md">Search</button>
                     </div>
                 </div>
             </div>

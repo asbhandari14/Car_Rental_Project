@@ -12,7 +12,7 @@ const About_Company = () => {
       <div className="About_company_section w-full h-[100vh] flex justify-center items-center my-12">
         <div className="container w-[80%] h-full grid grid-cols-2 py-4 gap-4">
             <div className='w-full h-full flex justify-end items-center '>
-                <img src="../public/images/img9.jpg" alt=""/>
+                <img src="../images/img9.jpg" alt=""/>
             </div>
             <div className=' w-full h-full flex flex-col justify-start items-start gap-2'>
                 <h3 className='text-2xl font-semibold'>About Company</h3>

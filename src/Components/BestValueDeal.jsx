@@ -11,7 +11,7 @@ const BestValueDeal = () => {
     <>
       <div className="bestvalue_deal_img_section w-full h-[100vh]  flex justify-center items-center my-6">
         <div className="container w-[95%] h-full flex justify-center items-center">
-            <img src="../public/images/img8.png" alt="car_img" className='w-full h-auto' />
+            <img src="../images/img8.png" alt="car_img" className='w-full h-auto' />
         </div>
       </div>
 
