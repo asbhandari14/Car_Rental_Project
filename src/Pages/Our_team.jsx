@@ -1,12 +1,12 @@
 import React from "react";
-
+import SaveBig from "../Components/SaveBig";
 
 
 const Our_team=()=>{
     return(
         <>
 
-        <h1>Hello I am the Our team page</h1>
+        <SaveBig heading="Book a car by getting in touch with us" number="(123) 456-7869"/>
 
         </>
     )

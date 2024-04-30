@@ -30,7 +30,7 @@ const Footer = () => {
                 <h1 className='text-2xl font-bold'>SUBSCRIPTION</h1>
                 <p>Subscribe your Email address for latest news & updates.</p>
                 <input type="email" className='w-full h-[17%] border text-slate-50 text-center mt-3' placeholder="Enter Email Address" />
-                <button className="w-full py-3 bg-[#FF4D30] flex justify-center items-center text-lg font-semibold rounded-md">Book Ride</button>
+                <button className="w-full py-3 bg-[#FF4D30] flex justify-center items-center text-lg text-white font-semibold rounded-md">Book Ride</button>
             </div>
         </div>
       </div>

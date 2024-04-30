@@ -14,8 +14,8 @@ const Hero_section=()=>{
                     <p className="text-lg text-gray-600">Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
 
                     <div className="info_Btn my-4 flex gap-6 text-white font-bold">
-                        <button className="px-6 py-4 bg-[#FF4D30] flex justify-center items-center gap-2 text-lg rounded-md">Book Ride <CiCircleCheck  className="text-2xl"/></button>
-                        <button className="px-6 py-4 bg-black flex justify-center items-center gap-2 text-lg rounded-md ">Learn More <FaAngleRight /></button>
+                        <button className="px-6 py-3 bg-[#FF4D30] flex justify-center items-center gap-2 text-lg rounded-md">Book Ride <CiCircleCheck  className="text-2xl"/></button>
+                        <button className="px-6 py-3 bg-black flex justify-center items-center gap-2 text-lg rounded-md ">Learn More <FaAngleRight /></button>
                     </div>
                 </div>
                 <div className="container_icon w-[100%] h-full">

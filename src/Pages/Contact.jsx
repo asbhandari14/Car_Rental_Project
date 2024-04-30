@@ -1,12 +1,12 @@
 import React from "react";
-
+import SaveBig from "../Components/SaveBig";
 
 
 const Contact=()=>{
     return(
         <>
 
-        <h1>Hello I am the Contact Page</h1>
+        <SaveBig heading="Book a car by getting in touch with us" number="(123) 456-7869"/>
 
         </>
     )
