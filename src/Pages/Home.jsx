@@ -7,6 +7,7 @@ import SaveBig from '../Components/SaveBig';
 import BestValueDeal from '../Components/BestValueDeal';
 import Reviewed from '../Components/Reviewed';
 import FrequentlyAsked_Question from '../Components/FrequentlyAsked_Question';
+import Our_rental_fleet from '../Components/Our_rental_fleet';
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
       <Hero_section/> 
       <Book_car/>
       <Quick_and_Easy_section/>
+      <Our_rental_fleet/>
       <SaveBig heading="Save big with our cheap car rental!" subheading="Top Airports. Local Suppliers ."/>
       <BestValueDeal/>
       <Reviewed/>

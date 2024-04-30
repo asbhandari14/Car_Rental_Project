@@ -8,7 +8,7 @@ const Reviewed = () => {
             <div className="container w-[80%] h-full flex flex-col justify-center items-center p-8 gap-4">
                 <h3 className='text-2xl font-bold'>Reviewed by People</h3>
                 <h1 className='text-4xl font-bold'>Client's Testimonials</h1>
-                <p className='text-lg my-4 text-gray-600 text-center'>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
+                <p className='text-lg my-4 text-gray-400 text-center'>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
 
                 <div className=" w-full h-full grid grid-cols-2 text-xl font-semibold gap-8">
                   <div className=" w-full h-full flex flex-col justify-start items-start p-12  shadow-lg">

@@ -12,7 +12,7 @@ const Navbar=()=>{
             <div className="container w-[95%] h-full flex justify-between items-center">
                 <div className="nav_icon flex gap-3">
                     <FaCar className="text-4xl "/>
-                    <h1 className="text-2xl font-semibold">Car Rental</h1>
+                    <NavLink to="/"> <h1 className="text-2xl font-semibold">Car Rental</h1> </NavLink>
                 </div>
                 <div className="nav_info flex justify-center list-none gap-6 font-semibold">
                     <NavLink to="/"><li>Home</li></NavLink>

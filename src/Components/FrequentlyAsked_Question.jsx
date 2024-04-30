@@ -7,14 +7,14 @@ const FrequentlyAsked_Question = () => {
   return (
     <>
 
-        <div className="frequently_asked_section w-full h-[100vh] flex justify-center items-center p-8">
+        <div className="frequently_asked_section w-full h-auto flex justify-center items-center p-8">
             <div className="container w-[95%] h-full flex flex-col justify-start items-center gap-4">
                 <h3 className='text-2xl font-bold mt-6'>FAQ</h3>
                 <h1 className='text-5xl font-bold'>Frequently Asked Questions</h1>
-                <p className='text-lg w-[70%] text-center'>Frequently Asked Questions About the Car Rental Booking Process on Our Website: Answers to Common Concerns and Inquiries.</p>
+                <p className='text-lg w-[70%] text-center text-gray-400'>Frequently Asked Questions About the Car Rental Booking Process on Our Website: Answers to Common Concerns and Inquiries.</p>
 
 {/*=========================================================Code for the Accordion ==================================================================== */}
-<div className="accordion" id="accordionExample" style={{width: "70%", margin: "5rem 0" }}>
+<div className="accordion w-[80%]" id="accordionExample" >
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne ">
@@ -22,8 +22,8 @@ const FrequentlyAsked_Question = () => {
       </button>
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <p>Comparing rental car deals is important as it helps find the best deal that fits your budget and requirements, ensuring you get the most value for your money. By comparing various options, you can find deals that offer lower prices, additional services, or better car models. You can find car rental deals by researching online and comparing prices from different rental companies. </p>
+      <div className="accordion-body text-black" transitionprops={{ unmountOnExit: true, mountOnEnter: true }}>
+      Comparing rental car deals is important as it helps find the best deal that fits your budget and requirements, ensuring you get the most value for your money. By comparing various options, you can find deals that offer lower prices, additional services, or better car models. You can find car rental deals by researching online and comparing prices from different rental companies. 
       </div>
     </div>
   </div>
@@ -33,9 +33,9 @@ const FrequentlyAsked_Question = () => {
       <h1 className='text-lg font-semibold'> 2. How do I find the car rental deals? </h1>
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body" TransitionProps={{ unmountOnExit: true, mountOnEnter: true }}>
-      <p class='text-lg font-semibold text-gray-600'>You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions </p>
+    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div className="accordion-body">
+      <p className='text-lg font-semibold text-gray-600'>You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions </p>
       </div>
     </div>
   </div>

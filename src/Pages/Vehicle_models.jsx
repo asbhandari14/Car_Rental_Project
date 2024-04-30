@@ -1,5 +1,6 @@
 import React from "react";
 import all_car_product from "../assets/all_car_product";
+import SaveBig from "../Components/SaveBig";
 
 import { CiCircleCheck } from "react-icons/ci";
 
@@ -14,7 +15,7 @@ const Vehicle_model=()=>{
                         all_car_product.map((currElem)=>{
                             return(
                                 <>
-                                    <div className="w-full h-auto flex flex-col justify-center items-center px-5 py-2 shadow-md">
+                                    <div className="w-full h-auto flex flex-col justify-center items-center px-5 py-2 border shadow-md">
                                         <img src={currElem.image} alt="" className="w-full" />
                                         <div className="w-full flex justify-between items-start ">
                                             <div className="w-full info flex flex-col justify-start items-start gap-3">
@@ -33,12 +34,16 @@ const Vehicle_model=()=>{
                                         <hr className="w-full my-4" />
                                         <button className="px-6 py-3 bg-[#FF4D30] text-white w-[80%] flex justify-center items-center gap-2 text-lg rounded-md">Book Ride <CiCircleCheck  className="text-2xl"/></button>
                                     </div>
+
+                                    
                                 </>
                             )
                         })
                     }
                 </div>
             </div>
+
+            <SaveBig heading="Book a car by getting in touch with us" number="(123) 456-7869"/>
         
 
         </>
