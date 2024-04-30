@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 import Signin from "./Pages/Signin";
 import Register from "./Pages/Register";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 
 
@@ -28,6 +29,7 @@ const App=()=>{
         <Route path="/signin" element={<Signin />} />
         <Route path="/register" element={<Register />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </>
   )

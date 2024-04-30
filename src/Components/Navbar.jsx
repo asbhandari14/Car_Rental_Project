@@ -8,7 +8,7 @@ const Navbar=()=>{
     return(
         <>
 
-        <div className="navbar_section w-full h-[13vh] bg-red-600  text-white flex justify-center items-center">
+        <div className="navbar_section w-full h-[13vh] bg-[#FF4D30]  text-white flex justify-center items-center">
             <div className="container w-[95%] h-full flex justify-between items-center">
                 <div className="nav_icon flex gap-3">
                     <FaCar className="text-4xl "/>
