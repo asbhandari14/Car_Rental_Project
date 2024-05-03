@@ -7,7 +7,7 @@ const Our_team=()=>{
     return(
         <>
 
-        <div className="contact_section w-full h-[100vh] flex justify-center items-center">
+        <div className="contact_section w-full h-[100vh] flex justify-center items-center my-12">
             <div className="container w-[85%] h-full grid grid-cols-3 place-items-center gap-6">
                 {
                     all_team.map((currElem)=>{

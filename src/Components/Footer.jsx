@@ -29,7 +29,7 @@ const Footer = () => {
             <div className='w-full  flex flex-col justify-start items-start gap-2 text-lg'>
                 <h1 className='text-2xl font-bold'>SUBSCRIPTION</h1>
                 <p>Subscribe your Email address for latest news & updates.</p>
-                <input type="email" className='w-full h-[17%] border text-slate-50 text-center mt-3' placeholder="Enter Email Address" />
+                <input type="email" className='w-full h-[17%] border mt-3 px-3' placeholder="Enter Email Address" />
                 <button className="w-full py-3 bg-[#FF4D30] flex justify-center items-center text-lg text-white font-semibold rounded-md">Book Ride</button>
             </div>
         </div>

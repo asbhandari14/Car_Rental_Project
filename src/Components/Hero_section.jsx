@@ -6,7 +6,7 @@ const Hero_section=()=>{
     return(
         <>
 
-        <div className="hero_section w-full h-[87vh]  flex justify-center items-start py-12 bg-slate-200">
+        <div className="hero_section w-full h-[87vh]  flex justify-center items-start py-12 ">
             <div className="container w-[95%] grid grid-cols-[1.7fr_2fr] place-items-start">
                 <div className="container_info  w-full h-full flex flex-col justify-center items-start gap-4">
                     <h3 className="text-xl font-bold"> Plan your Trip now </h3>
@@ -19,7 +19,7 @@ const Hero_section=()=>{
                     </div>
                 </div>
                 <div className="container_icon w-[100%] h-full">
-                    <img src="/images/img7.png" alt="" className="w-full h-auto" />
+                    <img src="/images/img7.png" alt="" className="w-full h-auto bg-transparent" />
                 </div>
             </div>
         </div>

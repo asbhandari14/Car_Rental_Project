@@ -21,7 +21,7 @@ const Our_rental_fleet = () => {
                     all_car_product.map((currElem, index)=>{
                         return(
                             <>
-                                <div id={currElem.id} className=" li w-[90%] bg-[#f2f2f2] text-xl font-semibold py-3 px-4 hover:bg-[#FF4D30] hover:text-white" style={{backgroundColor: val == currElem.id - 1?"#FF4D30":""}}>{currElem.name}</div>
+                                <div key={index} id={currElem.id} className=" li w-[90%] bg-[#f2f2f2] text-xl font-semibold py-3 px-4 hover:bg-[#FF4D30] hover:text-white" style={{backgroundColor: val == currElem.id - 1?"#FF4D30":""}}>{currElem.name}</div>
                                 {/* {console.log(val, index, currElem.id)} */}
                             </>
                         )
