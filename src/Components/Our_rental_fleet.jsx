@@ -11,7 +11,7 @@ const Our_rental_fleet = () => {
   return (
     <>
       <div className="our_rental_fleet_section w-full h-auto flex justify-center items-center">
-      <div className="container w-[95%] h-full flex flex-col justify-start items-center gap-3">
+      <div className="container w-[95%] h-auto flex flex-col justify-start items-center gap-3">
             <h3 className='text-2xl font-bold'>Vehicle Models</h3>
             <h1 className='text-4xl font-bold'>Our rental fleet</h1>
             <p className='text-center w-[45%] text-lg text-gray-400'>Choose from a variety of our amazing vehicles to rent for your next adventure or business trip</p>

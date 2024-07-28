@@ -6,8 +6,8 @@ import { FaCarSide } from "react-icons/fa";
 const Quick_and_Easy_section = () => {
   return (
     <>
-        <div className="quick_and_easy_section w-full h-[100vh] flex justify-center items-center">
-            <div className="container w-[95%] h-full flex flex-col justify-start items-center gap-8 p-12">
+        <div className="quick_and_easy_section w-full h-auto flex justify-center items-center">
+            <div className="container w-[95%] h-auto flex flex-col justify-start items-center gap-8 p-12">
                 <h3 className='text-2xl font-bold'>Plan your trip now</h3>
                 <h1 className='text-5xl font-bold'>Quick & easy car rental</h1>
 

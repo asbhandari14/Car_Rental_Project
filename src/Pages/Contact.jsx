@@ -7,8 +7,8 @@ import { FaMessage } from "react-icons/fa6";
 const Contact=()=>{
     return(
         <>
-        <div className="contact_section w-full h-[100vh] flex justify-center items-center my-12">
-            <div className="container w-[95%] h-full grid grid-cols-[1.5fr_2fr]">
+        <div className="contact_section w-full h-auto flex justify-center items-center my-12">
+            <div className="container w-[95%] h-auto grid grid-cols-[1.5fr_2fr]">
                 <div className=" flex flex-col justify-start items-start gap-6 p-8">
                     <h1 className="text-4xl font-bold">Need additional information ?</h1>
                     <p className="text-lg text-gray-400">A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.</p>

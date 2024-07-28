@@ -6,8 +6,8 @@ const Hero_section=()=>{
     return(
         <>
 
-        <div className="hero_section w-full h-[87vh]  flex justify-center items-start py-12 ">
-            <div className="container w-[95%] grid grid-cols-[1.7fr_2fr] place-items-start">
+        <div className="hero_section w-full h-auto  flex justify-center items-start py-12 ">
+            <div className="container w-[95%] h-auto grid grid-cols-[1.7fr_2fr] place-items-start">
                 <div className="container_info  w-full h-full flex flex-col justify-center items-start gap-4">
                     <h3 className="text-xl font-bold"> Plan your Trip now </h3>
                     <h1 className="text-6xl font-bold"> Save <span className="text-[#FF4D30]"> big </span> with our car rental </h1>

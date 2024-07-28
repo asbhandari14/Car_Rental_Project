@@ -9,15 +9,15 @@ import { FaHandHoldingDollar } from "react-icons/fa6";
 const BestValueDeal = () => {
   return (
     <>
-      <div className="bestvalue_deal_img_section w-full h-[100vh]  flex justify-center items-center my-6">
-        <div className="container w-[95%] h-full flex justify-center items-center">
+      <div className="bestvalue_deal_img_section w-full h-auto  flex justify-center items-center my-6">
+        <div className="container w-[95%] h-auto flex justify-center items-center">
             <img src="../images/img8.png" alt="car_img" className='w-full h-auto' />
         </div>
       </div>
 
 
-      <div className="bestvalue_deal_info_section w-full h-[100vh] flex justify-center items-center">
-        <div className="container w-[95%] h-full grid grid-cols-[2fr_1.5fr] p-12">
+      <div className="bestvalue_deal_info_section w-full h-auto flex justify-center items-center">
+        <div className="container w-[95%] h-auto grid grid-cols-[2fr_1.5fr] p-12">
             <div className=' flex flex-col justify-start items-start p-8 gap-4'>
                 <h3 className='text-2xl font-bold'>Why Choose Us</h3>
                 <h1 className='text-5xl font-bold'>Best valued deals you will ever find</h1>

@@ -19,8 +19,8 @@ const Book_car=()=>{
     return(
         <>
 
-        <div className="book_car_section w-full h-[80vh] flex justify-center items-center">
-            <div className="container w-[95%] flex flex-col justify-start items-start p-12 shadow-2xl gap-4 ">
+        <div className="book_car_section w-full h-auto flex justify-center items-center">
+            <div className="container w-[95%] h-auto flex flex-col justify-start items-start p-12 shadow-2xl gap-4 ">
                 <h1 className="text-2xl font-bold">Book a Car</h1>
                 <div className="book_car_inputsection_1 w-full grid grid-cols-3 gap-5 my-1.5">
                     <div className="flex flex-col gap-3">

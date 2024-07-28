@@ -6,8 +6,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className="footer_section w-full h-[70vh] flex justify-center items-center bg-slate-100">
-        <div className="container w-[95%] h-full grid grid-cols-4 py-12 px-4 gap-8">
+      <div className="footer_section w-full h-auto flex justify-center items-center bg-slate-100">
+        <div className="container w-[95%] h-auto grid grid-cols-4 py-12 px-4 gap-8">
             <div className='w-full flex flex-col justify-start items-start gap-3 text-lg'>
                 <h1 className='text-2xl font-bold'>CAR Rental</h1>
                 <p className='text-gray-600'>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
