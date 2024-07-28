@@ -16,7 +16,7 @@ const Reviewed = () => {
                       <div className="w-full h-full flex flex-row justify-between items-center pt-6">
 
                         <div className='flex justify-start items-center gap-4'>
-                          <img src="../human_img1.webp" alt="" className='h-[4rem] rounded-[50%]' />
+                          <img src="../images/human_img1.webp" alt="" className='h-[4rem] rounded-[50%]' />
                           <div className="flex flex-col">
                               <h3 className='font-semibold'>Human1 </h3>
                               <p className='text-sm text-gray-600'>Norway</p>
@@ -32,7 +32,7 @@ const Reviewed = () => {
                       <div className="w-full h-full flex flex-row justify-between items-center pt-6">
 
                         <div className='flex justify-start items-center gap-4'>
-                          <img src="../human_img2.jpg" alt="" className='h-[4rem] rounded-[50%]' />
+                          <img src="../images/human_img2.jpg" alt="" className='h-[4rem] rounded-[50%]' />
                           <div className="flex flex-col">
                               <h3 className='font-semibold'>Human2 </h3>
                               <p className='text-sm text-gray-600'>Seberia</p>
